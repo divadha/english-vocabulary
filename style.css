@@ -1,0 +1,97 @@
+.Aligner {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+}
+
+.Aligner-item {
+	max-width: 50%;
+}
+
+.Aligner-item--top {
+	align-self: flex-start;
+}
+
+.Aligner-item--bottom {
+	align-self: flex-end;
+}
+
+.new-word {
+	height: 70%;
+	max-height: 70%;
+}
+
+#word {
+	width: 15%;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#statement {
+	width: 25%;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.test {
+	height: 150px;
+}
+
+.test div {
+	margin: 10px 0;
+}
+
+.test input {
+	margin-right: 20px;
+	width: 60px;
+	margin-bottom: 50px;
+}
+
+#status {
+	font-size: 120%;
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+#wordTest {
+	font-size: 140%;
+	font-weight: bold;
+	text-transform: lowercase;
+}
+
+.buttons input {
+	margin-right: 20px;
+}
+
+#table {
+	width: 95%;
+}
+
+#data {
+	width: 90%;
+}
+
+table,
+td {
+	border: 1px solid #ddd;
+	text-align: left;
+}
+
+th {
+	background-color: #4CAF50;
+	color: white;
+	padding: 7px;
+	height: 30px;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+td {
+	padding: 7px;
+}
