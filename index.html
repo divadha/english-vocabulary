@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>English Vocabulary</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="Aligner">
+		<h4>English Vocabulary</h4>
+	</div>
+	<br>
+
+	<div class="Aligner new-word">
+		<label for="word">Word:</label><input type="text" name="word" id="word">
+		<label for="statement">Statement:</label><input type="text" name="statement" id="statement">
+		<input type="button" value="Save" id="btnSave" class="btn btn-primary">
+	</div>
+	<br>
+	<br>
+
+	<div class="Aligner">
+		<input type="button" value="New test" id="btnNewTest" class="btn btn-primary">
+	</div>
+	<div class="Aligner">
+		<div id="status"></div>
+	</div>
+
+
+	<div id="test" hidden class="test">
+		<div class="Aligner">
+			<div id="wordTest"></div>
+		</div>
+		<div class="Aligner">
+			<div id="statementTest"></div>
+		</div>
+		<div class="Aligner">
+			<input type="button" value="Yes" id="yes" class="btn btn-success">
+			<input type="button" value="No" id="no" class="btn btn-danger">
+		</div>
+	</div>
+
+
+
+	<br>
+	<div class="Aligner buttons">
+		<input type="button" value="Delete data" id="btnDeleteAllData" class="btn btn-primary">
+		<input type="button" value="Show data" id="btnShowData" class="btn btn-primary">
+		<input type="button" value="Load data" id="btnLoadData" class="btn btn-primary">
+		<input type="checkbox" value="false" id="checkbox" />
+
+	</div>
+
+	<br>
+	<div class="Aligner">
+		<br>
+		<div id="dataDiv" hidden>
+			<textarea id="data" cols="120" rows="10"></textarea>
+		</div>
+	</div>
+	<br>
+	<div class="Aligner">
+		<div id="table" class="Aligner"></div>
+	</div>
+	<br>
+	<br>
+
+</body>
+<script src="app.js"></script>
+
+</html>
