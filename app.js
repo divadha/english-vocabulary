@@ -201,6 +201,7 @@ function answer(button) {
 	item.counter = counter;
 	item.success = success;
 	item.percentage = parseInt(counter < 5 ? (success / 5 * 100) : (success / counter * 100));
+	saveItem(item);
 	if (index > 9) {
 		document.getElementById('test').style.display = 'none';
 		document.getElementById('status').innerHTML = 'Finished the test your score is ' + yesCounter + '/10';
